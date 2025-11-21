@@ -1,0 +1,5 @@
+discord.py
+google-generativeai
+py-polymarket
+pyyaml
+python-dotenv

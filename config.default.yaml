@@ -1,0 +1,25 @@
+# Discord Configuration
+discord:
+  token: "YOUR_DISCORD_BOT_TOKEN"
+  allowed_user_ids: [123456789012345678] # Users allowed to interact with buttons
+  report_channel_id: 123456789012345678 # Channel for auto-drive reports
+
+# Gemini Configuration
+gemini:
+  keys:
+    - "YOUR_GEMINI_API_KEY_1"
+    - "YOUR_GEMINI_API_KEY_2"
+  model: "gemini-2.0-flash-exp" # Or gemini-1.5-flash
+  rate_limit_delay: 180 # Seconds between requests to avoid rate limits
+
+# Polymarket Configuration
+polymarket:
+  private_key: "YOUR_PRIVATE_KEY" # BE CAREFUL!
+  proxy_wallet: "YOUR_PROXY_WALLET_ADDRESS" # Optional, if using proxy
+  frequency: 180 # Seconds between market checks
+
+# Bot Settings
+bot:
+  auto_mode: false
+  default_bet_amount: 1 # USD
+  target_categories: ["Crypto", "Politics", "Sports"] # Categories to filter
